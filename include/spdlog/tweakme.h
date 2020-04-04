@@ -16,7 +16,7 @@
 // the kernel HZ.
 // Uncomment to use it instead of the regular clock.
 //
-// #define SPDLOG_CLOCK_COARSE
+#define SPDLOG_CLOCK_COARSE
 ///////////////////////////////////////////////////////////////////////////////
 
 ///////////////////////////////////////////////////////////////////////////////
@@ -112,5 +112,5 @@
 // __PRETTY_FUNCTION__ might be nicer in clang/gcc, and __FUNCTION__ in msvc.
 // Defaults to __FUNCTION__ (should work on all compilers) if not defined.
 //
-// #define SPDLOG_FUNCTION __PRETTY_FUNCTION__
+#define SPDLOG_FUNCTION __PRETTY_FUNCTION__
 ///////////////////////////////////////////////////////////////////////////////
